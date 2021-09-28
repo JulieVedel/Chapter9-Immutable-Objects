@@ -8,6 +8,9 @@ public class Exercise5 {
         double[] a = {2.4, 1.0, 7.2, 5.8};
         int n = 7;
         System.out.println(Arrays.toString(powArray(a, n)));
+
+        int[] b = new int[100];
+        System.out.println(Arrays.toString(histogram(b)));
     }
     public static double[] powArray(double[] array, int pow) {
         for (int i = 0; i < array.length; i++) {
@@ -15,4 +18,7 @@ public class Exercise5 {
         }
         return array;
     }
+//    public static int histogram(int[] scores) {
+//
+//    }
 }
